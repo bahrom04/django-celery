@@ -4,7 +4,6 @@ from django.db import models
 class RandomImage(models.Model):
      image = models.ImageField(upload_to="media/")
 
-     class Meta:
-          varbose_name = "Generated Image"
+ 
 
           
